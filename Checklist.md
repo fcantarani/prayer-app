@@ -8,10 +8,6 @@
 ```
     npx shadcn@latest init
 ```
-- Instalar os Componentes do ShadCN
-```
-    npx shadcn@latest add button label input sonner
-```
 - Instalar o Prisma como dependência de desenvolvimento - [Dúvidas](https://prisma.io)
 ```
     npm install prisma -D
