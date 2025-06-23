@@ -1,16 +1,31 @@
-### Preparar o Ambiente ###
+### Passo a passo ###
 
-1. Instalar o ShadCN
+- Inicializar um projeto em branco - vazio
+```
+    npx create-next-app --empty
+```
+- Instalar o ShadCN
 ```
     npx shadcn@latest init
 ```
-
-2. Instalar os Componentes do ShadCN
+- Instalar os Componentes do ShadCN
 ```
     npx shadcn@latest add button label input sonner
 ```
+- Instalar o Prisma como dependência de desenvolvimento
+```
+    npm install prisma -D
+```
+- Configurar o Prisma para utilizar o SQLite
+```
+    npx prisma init --datasource-provider sqlite
+```
+- Atualizar a Model <> Database
+```
+    npx prisma db push
+```
+Instalar o Better-Auth
+```
+    npm install better-auth
+```
 
-3. Instalar o Prisma
-4. Configurar o Prisma
-5. Instalar o Better-Auth
-6. Configurar o Better-Auth
